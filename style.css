@@ -1,0 +1,65 @@
+ {
+  box-sizing: border-box;
+}
+
+body {
+  /* background-image: url(./assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;*/
+
+  /* agrupamento do background: color image repeat position */
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+body * {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#container {
+  width: 360px;
+  margin: 56px auto 0px;
+  padding: 24px;
+}
+
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+
+#profile img {
+  border-radius: 100%;
+  width: 112px;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 8px;
+}
+
+/* Links Lista */
+
+ul {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  padding: 24px 0:
+}
+
+ul li a {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+
+  padding: 16px 24px;
+
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--stroke-color)
+  border-radius: 8px;
+  -weblit-background-filter: blur(4px);
+}
