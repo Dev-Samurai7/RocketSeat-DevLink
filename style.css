@@ -42,12 +42,14 @@ body * {
 }
 
 /* profile */
+
 #profile {
   text-align: center;
   padding: 24px;
 }
 
 #profile img {
+  border-radius: 100%;
   width: 112px;
 }
 
